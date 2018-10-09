@@ -1,4 +1,8 @@
-
+@font-face {
+    font-family: "OpenSans";
+    src:  url(Open_sans_font/OpenSans-Regular.ttf);
+ 
+}
 
 /**header**/
 header{
@@ -73,10 +77,12 @@ footer{
 
 /**texte header**/
 .texte_titre{
+    font-family: OpenSans;
     color: white;
     text-align: center;
 }
 .sous_titre{
+    font-family: OpenSans;
     color: white;
     text-align: center;
 }
