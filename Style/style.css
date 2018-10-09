@@ -1,7 +1,10 @@
 @font-face {
     font-family: "OpenSans";
     src:  url(Open_sans_font/OpenSans-Regular.ttf);
- 
+}
+@font-face{
+    font-family: "OpenSansLight";
+    src: url(Open_sans_font/OpenSans-Light.ttf);
 }
 
 /**header**/
@@ -11,7 +14,9 @@ header{
     height: 900px;
 
 }
-
+body{
+    margin: 0;
+}
 /**corps**/
 .GEN{
     background-image: url(img/BG_GEN.png);
@@ -80,9 +85,13 @@ footer{
     font-family: OpenSans;
     color: white;
     text-align: center;
+    font-size: 3.00em;
 }
 .sous_titre{
-    font-family: OpenSans;
+    font-family: OpenSansLight;
     color: white;
     text-align: center;
+    font-size: 3.05em;
+    background-image: url(img/BGsoustexteHeader.png);
+    background-image: no-repeat;
 }
