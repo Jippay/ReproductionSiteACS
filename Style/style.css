@@ -1,8 +1,82 @@
-/**header**/
 
+
+/**header**/
 header{
     background-image: url(img/BGheader.png);
-    width: 1980px;
+    width: 1920px;
     height: 900px;
 
+}
+
+/**corps**/
+.GEN{
+    background-image: url(img/BG_GEN.png);
+    width: 1921px;
+    height: 484px;
+}
+
+.Enseignement{
+    background-image: url(img/BG_enseignement.png);
+    width: 1920px;
+    height: 445px;
+}
+
+.chacun_son_metier{
+    background-image: url(img/BG_chacun_son_metier.png);
+    width: 1922px;
+    height: 580px;
+}
+
+.chacun_son_projet{
+    background-image: url(img/BG_chacun_son_projet.png);
+    width: 1922px;
+    height: 446px;
+}
+
+.titre_pro{
+    background-image: url(img/BG_titre_pro.png);
+    width: 1921px;
+    height: 300px;
+}
+
+.centre_formation{
+    background-image: url(img/BG_centre.png);
+    width: 1921px;
+    height: 844px;
+}
+
+.temoignage{
+    background-image: url(img/BG_temoignage.png);
+    width: 1920px;
+    height: 605px;
+}
+
+.contact{
+    background-image: url(img/BG_contact.png);
+    width: 1922px;
+    height: 803px;
+}
+
+.logo{
+    background-image: url(img/BG_logo.png);
+    width: 1921px;
+    height: 252px;
+
+}
+
+/**footer**/
+footer{
+    background-image: url(img/BG_footer.png);
+    width: 1922px;
+    height: 158px;
+}
+
+/**texte header**/
+.texte_titre{
+    color: white;
+    text-align: center;
+}
+.sous_titre{
+    color: white;
+    text-align: center;
 }
