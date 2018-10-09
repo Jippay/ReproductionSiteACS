@@ -90,8 +90,8 @@ footer{
 .sous_titre{
     font-family: OpenSansLight;
     color: white;
-    text-align: center;
     font-size: 3.05em;
     background-image: url(img/BGsoustexteHeader.png);
     background-image: no-repeat;
+
 }
