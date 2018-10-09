@@ -1,0 +1,13 @@
+/**header**/
+
+header{
+    background-image: url(img/BGheader.png);
+    width: 1980px;
+    height: 900px;
+
+}
+
+ul li{
+    display: inline;
+
+}
