@@ -7,32 +7,53 @@
     src: url(Open_sans_font/OpenSans-Light.ttf);
 }
 
-body{
-
+*{
     margin: 0;
+    padding: 0;
 }
+
+body{
+    font-family: OpenSans;
+}
+/**menu nav**/
+
+nav{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 90px;
+    justify-content: space-between;
+}
+
+
+nav ul{
+    margin-right: 370px;
+    display: flex;
+    color: white;
+    height: 90px;
+    line-height: 90px;
+}
+
+nav li{
+    padding: 0 20px;
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
+nav li:hover
+{
+	background-color: #ee1237;
+    color:white;
+}
+.logoacs{
+    margin: 20px 0 20px 350px;
+}
+/**fin du nav**/
 
 /**header**/
-.menu_nav_top{
-    background-image: url(img/BGNav_menu.png);
-    width: 1921px;
-    height: 92px;
-
-}
-
-
-.menu ul li{
-    display: inline-table;
-    font-family: OpenSans;
-    color: white;
-    text-transform: uppercase;
-    float: right;
-    padding: 0 0 0 25px;
-}
-
 header{
     background-image: url(img/BGheader.png);
-    width: 1920px;
+    width: 100%;
     height: 900px;
 }
 
@@ -101,16 +122,18 @@ footer{
 
 /**texte header**/
 .texte_titre{
-    font-family: OpenSans;
+    padding-top: 300px;
     color: white;
     text-align: center;
-    font-size: 3.00em;
+    font-size: 3.10em;
 }
 .sous_titre{
     font-family: OpenSansLight;
     color: white;
     text-align: center;
     font-size: 2.0em;
-    background-image: url(img/BGsoustexteHeader.png) no-repeat;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-left: 400px;
+    margin-right: 400px;
 
 }
