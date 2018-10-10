@@ -7,16 +7,35 @@
     src: url(Open_sans_font/OpenSans-Light.ttf);
 }
 
+body{
+
+    margin: 0;
+}
+
 /**header**/
+.menu_nav_top{
+    background-image: url(img/BGNav_menu.png);
+    width: 1921px;
+    height: 92px;
+
+}
+
+
+.menu ul li{
+    display: inline-table;
+    font-family: OpenSans;
+    color: white;
+    text-transform: uppercase;
+    float: right;
+    padding: 0 0 0 25px;
+}
+
 header{
     background-image: url(img/BGheader.png);
     width: 1920px;
     height: 900px;
+}
 
-}
-body{
-    margin: 0;
-}
 /**corps**/
 .GEN{
     background-image: url(img/BG_GEN.png);
@@ -90,7 +109,8 @@ footer{
 .sous_titre{
     font-family: OpenSansLight;
     color: white;
-    font-size: 3.05em;
-    background-image: url(img/BGsoustexteHeader.png);
+    text-align: center;
+    font-size: 2.0em;
+    background-image: url(img/BGsoustexteHeader.png) no-repeat;
 
 }
