@@ -146,10 +146,92 @@ footer{
     display: flex;
     justify-content: center;
     align-content: center;
-    margin-top: 100px;
-    margin-bottom: 70px;
+    margin-top: 110px;
 }
 /**fin section GEN**/
+
+/**section Enseignement**/
+.Trait_Blanc1{
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+/**logo + texte*/
+.logodivers{
+    color: white;
+    padding-top: 100px;
+    margin-left: 360px;
+    margin-right: 360px;
+    display: flex;
+    font-size: 0.75em;
+}
+.theorie{
+    display: block;
+    width : 200px;
+    height : 150px;
+    text-align: center;
+    margin: 0 30px;
+}
+.theorieicon{
+    padding-bottom: 20px;
+}
+.developpement{
+    display: block;
+    width : 200px;
+    height : 150px;
+    text-align: center;
+    margin: 0 30px;
+}
+.developpement_icon{
+    padding-bottom: 20px;
+}
+.outil{
+    display: block;
+    width : 200px;
+    height : 150px;
+    text-align: center;
+    margin: 0 30px;
+}
+.outil_icon{
+    padding-bottom: 20px;
+}
+.aide_pragma{
+    display: block;
+    width : 200px;
+    height : 150px;
+    text-align: center;
+    margin: 0 30px;
+}
+.aide_icon{
+    padding-bottom: 20px;
+}
+.dev_compé{
+    display: block;
+    width : 200px;
+    height : 150px;
+    text-align: center;
+    margin: 0 30px;
+}
+.dev_comp_icon{
+    padding-bottom: 20px;
+}
+/*fin section enseignement**/
+
+/*section à chacun son metier*/
+.Trait_Blanc2{
+    margin-left: 355px;
+}
+.containertexte_chacun{
+    color: white;
+    margin-left: 355px;
+    font-size: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 330px;
+    margin-top: 40px;
+}
 
 /**texte header**/
 .texte_titre{
@@ -185,7 +267,7 @@ footer{
 .GEN h1{
     font-size: 2.00em;
     text-align: center;
-    margin-top: 70px;
+    margin-top: 50px;
     text-transform: uppercase;
 }
 
@@ -221,3 +303,30 @@ footer{
     margin-left: -2em;
 }
 /**fin texte section GEN**/
+
+/**texte section enseignement**/
+.titreEnseignement{
+    color: white;
+    font-size: 2.00em;
+    text-align: center;
+    padding-top: 70px;
+    text-transform: uppercase;
+}
+/**fin texte section enseignement**/
+/**texte section chacun son metier**/
+.chacun_son_metier h1{
+    color: white;
+    font-size: 2em;
+    padding-top: 60px;
+    text-transform: uppercase;
+    margin-left:360px;
+}
+.inscris{
+    display: block;
+    width : 200px;
+    height: 48px;
+    text-align: center;
+    line-height: 48px;
+    border: 2px solid white;
+    text-transform: uppercase;
+}
