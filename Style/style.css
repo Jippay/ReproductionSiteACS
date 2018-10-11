@@ -84,7 +84,7 @@ header{
 }
 
 .chacun_son_metier{
-    background-image: url(img/BG_chacun_son_metier.png);
+    background-color: #3e3e3e;
     width: 100%;
     height: 580px;
 }
@@ -114,8 +114,8 @@ header{
 }
 
 .contact{
-    background-image: url(img/BG_contact.png);
-    width: 100%;
+    background-color: #a50526;
+    width: 1922px;
     height: 803px;
 }
 
@@ -222,15 +222,31 @@ footer{
 .Trait_Blanc2{
     margin-left: 355px;
 }
+.container_texte_vidéo{
+    display: flex;
+    margin-right: 360px;
+    margin-left: 360px;
+    
+}
+.video{
+    margin-left: 30px;
+}
 .containertexte_chacun{
     color: white;
-    margin-left: 355px;
-    font-size: 1em;
+    font-size: 0.8em;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 330px;
     margin-top: 40px;
+}
+/*fin section à chacun son metier*/
+/*section chacun son projet*/
+.chacun_son_projet{
+    margin: 0 360px;
+}
+.Trait_Rouge2{
+    margin-left: 860px;
 }
 
 /**texte header**/
@@ -264,7 +280,7 @@ footer{
 /**fin texte header**/
 
 /**texte section GEN**/
-.GEN h1{
+.GEN h2{
     font-size: 2.00em;
     text-align: center;
     margin-top: 50px;
@@ -313,8 +329,9 @@ footer{
     text-transform: uppercase;
 }
 /**fin texte section enseignement**/
+
 /**texte section chacun son metier**/
-.chacun_son_metier h1{
+.chacun_son_metier h2{
     color: white;
     font-size: 2em;
     padding-top: 60px;
@@ -329,4 +346,20 @@ footer{
     line-height: 48px;
     border: 2px solid white;
     text-transform: uppercase;
+}
+.inscris:hover
+{
+    color:white;
+    background-image: linear-gradient(to left, rgb(189, 27, 35), rgb(212, 56, 64));
+    border: none;
+}
+/**fin section chacun son metier**/
+
+/*texte section chacun son projet*/
+.chacun_son_projet h2{
+    color: black;
+    font-size: 2em;
+    text-transform: uppercase;
+    padding-top: 60px;
+    margin-left:860px;
 }
